@@ -2,7 +2,7 @@
 AD Tracking SDK for Cashtree
 
 ## Integration Method
-Import the SDK file which is provided by AdTracking (ad-tracking-cpe-sdk-1.2.0.jar) to Project.
+Import the SDK file which is provided by AdTracking (AdTrackingSDK_v1.3.0.jar) to Project.
 
 ----
 
@@ -10,13 +10,11 @@ Import the SDK file which is provided by AdTracking (ad-tracking-cpe-sdk-1.2.0.j
 ```
 dependencies {
     compile 'com.android.support:support-v4:23.2.1'
-    compile 'com.mcxiaoke.volley:library:1.0.19'
 }
 ```
 
 Local  Insert the libraries that need SDK as below into the Project.
 - *android-support-v4.jar*
-- *volley-1.0.19.jar*
 
 ----
 
@@ -90,7 +88,7 @@ Thus, when obfuscating application, please exclude SDK.
 
 Enter the jar file name which is actually applied in the libraryjars
 ```
--libraryjars libs/ad-tracking-cpe-sdk-1.2.0.jar
+-libraryjars libs/AdTrackingSDK_v1.3.0.jar
 -keep class com.ad.tracking.cpe.agent.**{*;}
 -dontwarn com.ad.tracking.cpe.agent
 ```
