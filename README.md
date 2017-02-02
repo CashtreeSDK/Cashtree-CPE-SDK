@@ -1,5 +1,6 @@
 # Cashtree-CPE-SDK
-AD Tracking SDK for Cashtree
+- AD Tracking SDK for Cashtree
+- Version 1.3.0
 
 ## Integration Method
 Import the SDK file which is provided by AdTracking (AdTrackingSDK_v1.3.0.jar) to Project.
